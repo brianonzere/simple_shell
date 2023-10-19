@@ -9,7 +9,6 @@
 
 int main(__attribute__((unused)) int argc, __attribute__((unused)) char **argv)
 {
-
 	ssize_t len = 0;
 	char *buff = NULL, *value, *pathname, **arv;
 	size_t size = 0;
