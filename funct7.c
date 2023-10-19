@@ -1,5 +1,6 @@
 #include "header.h"
 
+
 /**
  * sig_handler - checks if Ctrl C is pressed
  * @sig_num: int
@@ -39,3 +40,4 @@ void _isatty(void)
 	if (isatty(STDIN_FILENO))
 		_puts("#cisfun$ ");
 }
+
